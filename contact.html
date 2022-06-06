@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta cahrset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>café5963</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-top">
+    <h1>café5963　ブランジェリー・カフェ</h1>
+    <img src="images/img-mainvisual.jpg" alt="café5963のイメージ画像"><!--alt 写真の説明 -->
+  </header>
+  <div class="wrapper">
+    <nav class="navigation-main">
+      <ul>
+        <li><a href="index.html">HOME</a></li>  <!--ul 黒丸が表示される -->
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="access.html">ACCESS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-contents">
+      <h2>CONTACT</h2>
+      <div class="contact-from">
+        <form action="form.php">
+          <ul>
+            <li>
+              <label for="Name">お名前</label>
+              <input type="text" name="name" id="Name">
+            </li>
+            <li>
+            <label for="Email">Email</label>
+            <input type="text" name="email" id="Email">
+          </li>
+            <li>
+              <label for="Message">メッセージ</label>
+              <textarea name="message" id="Message" rows="10"></textarea><!-- rows=10 １０行分書ける-->
+            </li>
+            <li id="send">
+              <label></label><!-- 空のlabelを入れることで justify-contentが効く 子要素-->
+            <button type="submit">送信</button>
+            </li>
+          </ul>
+
+
+        </form>
+      </div>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer-info">
+        <h3>café5963</h3>
+        <ul>
+          <li>営業時間</li>
+          <li>ブランジェリー：9:00～21:00</li>
+          <li>カフェ：9:00～23:00</li>
+          <li>年中無休</li>
+          <li><small>Copyright 2021 café5963</small></li>
+        </ul>
+      </div>
+
+      <nav class="navigation-footer">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="access.html">ACCESS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+
+    </footer>
+
+  </div><!-- /.wrapper -->
+</body>
